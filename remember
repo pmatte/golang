@@ -1,0 +1,11 @@
+considered
+
+code from:
+https://github.com/GoogleCloudPlatform/golang-samples/tree/main/run/helloworld
+
+commands from here
+https://hub.docker.com/_/golang
+
+
+docker build -t helloworld .
+docker run -it --rm --name my-running-app helloworld
